@@ -40,6 +40,15 @@ git push heroku master
 heroku ps:scale app=1
 ```
 
+## Extra settings
+
+* [Uptime Robot](https://github.com/github/hubot-scripts/blob/master/src/scripts/uptime-robot.coffee) http://www.uptimerobot.com/
+```bash
+heroku config:add HUBOT_UPTIMEROBOT_APIKEY=______
+```
+
+More scripts at http://hubot-script-catalog.herokuapp.com/
+
 ## Issues along the way
 
 * Creating the Procfile
