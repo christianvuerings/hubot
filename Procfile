@@ -1,1 +1,1 @@
-web: bin/hubot -a xmpp -n "calbot"
+app: bin/hubot -a xmpp -n "calbot"
