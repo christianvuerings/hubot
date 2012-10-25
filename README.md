@@ -31,7 +31,7 @@ heroku config:add HUBOT_XMPP_HOST=media.berkeley.edu
 heroku config:add HUBOT_XMPP_PASSWORD=______
 heroku config:add HUBOT_XMPP_PORT=5222
 heroku config:add HUBOT_XMPP_ROOMS=calcentral@conference.media.berkeley.edu
-heroku config:add HUBOT_XMPP_HOST=etsdevbot@media.berkeley.edu
+heroku config:add HUBOT_XMPP_USERNAME=______@media.berkeley.edu
 ```
 
 5. Push to heroku
