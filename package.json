@@ -15,19 +15,15 @@
   },
 
   "dependencies": {
-    "hubot": "2.1.1",
+    "hubot": "2.3.4",
     "hubot-scripts": ">= 2.1.0",
-    "hubot-xmpp": ">=0.1.0",
+    "hubot-xmpp": "0.1.0",
     "optparse": "1.0.3"
   },
 
-  "devDependencies": {
-    "hubot": "2.1.1"
-  },
-
   "engines": {
-    "node": "0.6.x",
-    "npm": "1.0.x"
+    "node": "0.8.12",
+    "npm": "1.1.63"
   }
 }
 
