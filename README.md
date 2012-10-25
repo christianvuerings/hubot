@@ -7,25 +7,21 @@ This version is adapted for the Calcentral XMPP server
 ## Creating the bot
 
 1. Clone this repository
-
 ```bash
-git://github.com/christianv/hubot.git
+git clone git://github.com/christianv/hubot.git
 ```
 
 2. Create the instance on heroku
-
 ```bash
 heroku create etsdevbot --stack cedar
 ```
 
 3. Adding the RedisToGo addon (you need a verified account)
-
 ```bash
 heroku addons:add redistogo:nano
 ```
 
 4. Setting heroku environment variables
-
 ```bash
 heroku config:add HUBOT_XMPP_HOST=media.berkeley.edu
 heroku config:add HUBOT_XMPP_PASSWORD=______
@@ -35,13 +31,11 @@ heroku config:add HUBOT_XMPP_USERNAME=______@media.berkeley.edu
 ```
 
 5. Push to heroku
-
 ```bash
 git push heroku master
 ```
 
 6. Start the app
-
 ```bash
 heroku ps:scale app=1
 ```
